@@ -16,8 +16,14 @@ def roasted():
 
 
 @app.route('/spaghet', methods=['POST'])
-def roasted():
+def spaghet():
     play("./sounds/somebody-toucha-my-spaghet.mp3")
+    return ''
+
+
+@app.route('/forest-fires', methods=['POST'])
+def forest_fires():
+    play("./sounds/forest-fires.mp3")
     return ''
 
 
