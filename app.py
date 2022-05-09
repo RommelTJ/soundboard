@@ -26,33 +26,38 @@ def forest_fires():
     play("./sounds/forest-fires.mp3")
     return ''
 
+
 @app.route('/mr-worldwide', methods=['POST'])
-def forest_fires():
+def mr_worldwide():
     play("./sounds/mr-worldwide.mp3")
     return ''
 
 @app.route('/boots-of-escaping', methods=['POST'])
-def forest_fires():
+def boots_of_escaping():
     play("./sounds/boots-of-escaping.mp3")
     return ''
 
+
 @app.route('/friday', methods=['POST'])
-def forest_fires():
+def friday():
     play("./sounds/friday.mp3")
     return ''
 
+
 @app.route('/happy-friday-jr', methods=['POST'])
-def forest_fires():
+def happy_friday_jr():
     play("./sounds/happy-friday-jr.mp3")
     return ''
 
+
 @app.route('/lightning-bolt', methods=['POST'])
-def forest_fires():
+def lightning_bolt():
     play("./sounds/lightning-bolt.mp3")
     return ''
 
+
 @app.route('/magic-missile', methods=['POST'])
-def forest_fires():
+def magic_missile():
     play("./sounds/magic-missile.mp3")
     return ''
 
