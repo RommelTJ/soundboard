@@ -11,54 +11,55 @@ def index():
 
 @app.route('/roasted', methods=['POST'])
 def roasted():
-    play("./sounds/roasted.mp3")
+    play("roasted.mp3")
     return ''
 
 
 @app.route('/spaghet', methods=['POST'])
 def spaghet():
-    play("./sounds/somebody-toucha-my-spaghet.mp3")
+    play("somebody-toucha-my-spaghet.mp3")
     return ''
 
 
 @app.route('/forest-fires', methods=['POST'])
 def forest_fires():
-    play("./sounds/forest-fires.mp3")
+    play("forest-fires.mp3")
     return ''
 
 
 @app.route('/mr-worldwide', methods=['POST'])
 def mr_worldwide():
-    play("./sounds/mr-worldwide.mp3")
+    play("mr-worldwide.mp3")
     return ''
+
 
 @app.route('/boots-of-escaping', methods=['POST'])
 def boots_of_escaping():
-    play("./sounds/boots-of-escaping.mp3")
+    play("boots-of-escaping.mp3")
     return ''
 
 
 @app.route('/friday', methods=['POST'])
 def friday():
-    play("./sounds/friday.mp3")
+    play("friday.mp3")
     return ''
 
 
 @app.route('/happy-friday-jr', methods=['POST'])
 def happy_friday_jr():
-    play("./sounds/happy-friday-jr.mp3")
+    play("happy-friday-jr.mp3")
     return ''
 
 
 @app.route('/lightning-bolt', methods=['POST'])
 def lightning_bolt():
-    play("./sounds/lightning-bolt.mp3")
+    play("lightning-bolt.mp3")
     return ''
 
 
 @app.route('/magic-missile', methods=['POST'])
 def magic_missile():
-    play("./sounds/magic-missile.mp3")
+    play("magic-missile.mp3")
     return ''
 
 
